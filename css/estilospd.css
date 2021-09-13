@@ -1,0 +1,65 @@
+body{
+   background-image:url(../imagenes/Fondo.png);
+   background-size:100%;
+   background-attachment: fixed;
+}
+
+.title{
+text-align: center;
+font-size: 40px;
+margin top: 100px;
+font-width: 100%;
+}
+
+.container{
+width: 100%;
+max-width: 1200px;
+height: 430;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+}
+
+.container .card{
+width: 330px;
+height: 430;
+border-radus:8px;
+box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 20px;
+text-align: center;
+translation: all 0.25px;
+}
+
+.container .card:hover{
+transform: translateY(-15px);
+box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+width: 350px;
+height: 350px;
+}
+
+.container .card h4{
+font-weight: 600;
+}
+
+.home{
+width: 150px;
+height: 150px;
+border: 0px solid black;
+justify-content: center;
+}
+
+.adt{
+width: 190px;
+height: 150px;
+border: 0px solid black;
+}
+
+li{
+   list-style-type: decimal;
+}
+

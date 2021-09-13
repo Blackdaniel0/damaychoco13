@@ -1,0 +1,85 @@
+body{
+   background-image:url(../imagenes/Fondo.png);
+   background-size:100%;
+   background-attachment: fixed;
+}
+
+p{
+   align: center;
+}
+
+.title{
+text-align: center;
+font-size: 40px;
+margin top: 100px;
+font-width: 100%;
+}
+
+table,td,th{
+   border:3px solid white;
+   border-collapse: collapse;
+   color: black;
+   /*background: black;*/
+   font-size: 50px;
+   font-family: Britannic;
+   text-align: center;
+   padding: 5px;
+}
+
+.primera{
+   background: ;
+   color: black;
+   width: 70px;
+   height: 20px;
+}
+
+.segunda{
+   background: ;
+   color: black;
+   width: 165px;
+   height: 20px;
+}
+
+li{
+   list-style-type: decimal;
+}
+
+img{
+margin:auto;
+display:block;
+}
+
+.container{
+width: 100%;
+max-width: ;
+height: ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+}
+
+.container .card{
+width: px;
+height: px;
+border-radus:8px;
+box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 20px;
+text-align: center;
+translation: all 0.25px;
+}
+
+.container .card:hover{
+transform: translateY(-15px);
+box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+width: px;
+height: px;
+}
+
+.container .card h4{
+font-weight: ;
+}
